@@ -7,7 +7,7 @@ GeneralUpdateLib使用说明：
 1.导入GeneralUpdateLib库项目，在你的主项目中右键属性引用这个Library。
 
 2.将如下配置信息拷贝到你的主项目AndroidManifest.xml中，需要作为启动加载页面:
-		<activity
+	<activity
             android:name="com.hb.generalupdate.LoadActivity"
             android:label="@string/app_name"
             android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
